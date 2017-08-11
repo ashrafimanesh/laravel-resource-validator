@@ -1,0 +1,21 @@
+{
+    "name": "ashrafi/laravel-crud",
+    "description": "manage form crud",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/laravel": ">=5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ramin",
+            "email": "ashrafimanesh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ashrafi\\CrudActions\\": "src"
+        }
+    }
+}
