@@ -3,7 +3,7 @@
     "description": "manage form crud",
     "require": {
         "php": ">=5.5.9",
-        "laravel/laravel": ">=5.0"
+        "laravel/laravel": ">=v5.0"
     },
     "license": "MIT",
     "authors": [
