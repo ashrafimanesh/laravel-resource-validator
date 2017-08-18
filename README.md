@@ -10,7 +10,7 @@ Quick Installation
 Begin by installing the package through Composer.
 
 ```
-composer require ashrafi/laravel-crud
+composer require ashrafi/laravel-resource-route-validator
 ```
 
 Add service provider to config/app.php providers list
