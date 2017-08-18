@@ -28,6 +28,6 @@ trait Base
      */
     protected function validate(){
         $this->validator=Validator::make($this->inputs,$this->getRules());
-        return $this->validator->fails();
+        return !$this->validator->fails();
     }
 }
