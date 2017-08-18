@@ -6,10 +6,10 @@
  * Time: 5:10 PM
  */
 
-namespace Ashrafi\CrudActions\samples;
+namespace Ashrafi\ResourceRouteValidator\samples;
 
 
-use Ashrafi\CrudActions\Abstracts\Controller\ControllerPostForm;
+use Ashrafi\ResourceRouteValidator\Abstracts\Controller\ControllerPostForm;
 
 class SampleRequestCrud extends ControllerPostForm
 {

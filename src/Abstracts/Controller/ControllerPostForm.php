@@ -6,10 +6,10 @@
  * Time: 10:15 PM
  */
 
-namespace Ashrafi\CrudActions\Abstracts\Controller;
+namespace Ashrafi\ResourceRouteValidator\Abstracts\Controller;
 
 
-use Ashrafi\CrudActions\Abstracts\Form;
+use Ashrafi\ResourceRouteValidator\Abstracts\Form;
 
 abstract class ControllerPostForm extends Form
 {

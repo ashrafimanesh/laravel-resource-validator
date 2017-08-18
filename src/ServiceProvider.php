@@ -6,7 +6,7 @@
  * Time: 7:17 PM
  */
 
-namespace Ashrafi\CrudActions;
+namespace Ashrafi\ResourceRouteValidator;
 
 use Illuminate\Support\ServiceProvider as laraServiceProvider;
 
@@ -19,7 +19,7 @@ class ServiceProvider  extends laraServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/views', 'CrudActions');
+        $this->loadViewsFrom(__DIR__ . '/views', 'ResourceRouteValidator');
     }
 
     public function register(){

@@ -6,7 +6,7 @@
  * Time: 1:51 PM
  */
 
-namespace Ashrafi\CrudActions\Abstracts\Make;
+namespace Ashrafi\ResourceRouteValidator\Abstracts\Make;
 
 use Illuminate\Support\Facades\Validator;
 

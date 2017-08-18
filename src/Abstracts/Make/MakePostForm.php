@@ -1,6 +1,6 @@
 <?php
-namespace Ashrafi\CrudActions\Abstracts\Make;
-use Ashrafi\CrudActions\Abstracts\Form;
+namespace Ashrafi\ResourceRouteValidator\Abstracts\Make;
+use Ashrafi\ResourceRouteValidator\Abstracts\Form;
 
 /**
  * Created by PhpStorm.

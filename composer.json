@@ -1,6 +1,6 @@
 {
-    "name": "ashrafi/laravel-crud",
-    "description": "manage form crud",
+    "name": "ashrafi/laravel-resource-route-validator",
+    "description": "manage resource route validation",
     "require": {
         "php": ">=5.5.9"
     },
@@ -14,7 +14,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Ashrafi\\CrudActions\\": "src"
+            "Ashrafi\\ResourceRouteValidator\\": "src"
         }
     }
 }

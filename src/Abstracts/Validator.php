@@ -6,7 +6,7 @@
  * Time: 10:02 PM
  */
 
-namespace Ashrafi\CrudActions\Abstracts;
+namespace Ashrafi\ResourceRouteValidator\Abstracts;
 
 
 trait Validator

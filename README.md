@@ -16,7 +16,7 @@ composer require ashrafi/laravel-crud
 Add service provider to config/app.php providers list
 
 ```php
-Ashrafi\CrudActions\ServiceProvider::class,
+Ashrafi\ResourceRouteValidator\ServiceProvider::class,
 ```
 
-call domain.com/CrudActions/create route for test
+call domain.com/ResourceRouteValidator/create route for test

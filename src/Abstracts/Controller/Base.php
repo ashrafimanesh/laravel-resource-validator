@@ -6,7 +6,7 @@
  * Time: 10:20 PM
  */
 
-namespace Ashrafi\CrudActions\Abstracts\Controller;
+namespace Ashrafi\ResourceRouteValidator\Abstracts\Controller;
 
 
 use App\Http\Controllers\Controller;

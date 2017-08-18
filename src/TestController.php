@@ -6,19 +6,19 @@
  * Time: 7:20 PM
  */
 
-namespace Ashrafi\CrudActions;
+namespace Ashrafi\ResourceRouteValidator;
 
 
 use App\Http\Controllers\Controller;
-use Ashrafi\CrudActions\samples\SampleRequestCrud;
-use Ashrafi\CrudActions\samples\SampleRequestUpdate;
+use Ashrafi\ResourceRouteValidator\samples\SampleRequestCrud;
+use Ashrafi\ResourceRouteValidator\samples\SampleRequestUpdate;
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
     public function create(){
-        return view('CrudActions::form',['action'=>url('CrudActions')]);
+        return view('ResourceRouteValidator::form',['action'=>url('ResourceRouteValidator')]);
     }
 
     public function store(Request $request){
@@ -26,7 +26,7 @@ class TestController extends Controller
     }
 
     public function edit($id){
-        return view('CrudActions::form',['action'=>url('CrudActions/'.$id),'method'=>'PUT']);
+        return view('ResourceRouteValidator::form',['action'=>url('ResourceRouteValidator/'.$id),'method'=>'PUT']);
     }
 
     public function update(Request $request,$id){

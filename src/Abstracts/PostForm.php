@@ -6,7 +6,7 @@
  * Time: 10:01 PM
  */
 
-namespace Ashrafi\CrudActions\Abstracts;
+namespace Ashrafi\ResourceRouteValidator\Abstracts;
 
 
 abstract class PostForm extends Form

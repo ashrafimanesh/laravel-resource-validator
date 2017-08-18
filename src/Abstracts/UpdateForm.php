@@ -6,7 +6,7 @@
  * Time: 10:06 PM
  */
 
-namespace Ashrafi\CrudActions\Abstracts;
+namespace Ashrafi\ResourceRouteValidator\Abstracts;
 
 
 abstract class UpdateForm extends Form
